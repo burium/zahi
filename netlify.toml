@@ -3,5 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.111.3"  # You can specify the version you want here
-  # HUGO_BASEURL = "https://cudu.netlify.app/"
+  HUGO_VERSION = "0.121.1"  # You can specify the version you want here
+
+[context.production.environment]
+  HUGO_VERSION = "0.121.1"  # Check the latest stable Hugo version
