@@ -2,7 +2,7 @@ name = "Zahi"
 license = "MIT"
 licenselink = "https://github.com/mohamedelhefni/zahi/blob/main/LICENSE"
 description = "A fast, minimal, responsive Hugo arabic theme"
-homepage = "https://zahi.netlify.app/"
+homepage = "/"
 tags = [
     "responsive",
     "simple",
