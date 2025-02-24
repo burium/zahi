@@ -1,7 +1,7 @@
 [build]
-  command = "yarn install && hugo"
+  command = "npm install && npm run build"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.121.1"  # You can specify the version you want here
+  HUGO_VERSION = "0.121.1"
   NODE_OPTIONS = "--max-old-space-size=4096"
