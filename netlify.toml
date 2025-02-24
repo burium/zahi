@@ -1,15 +1,38 @@
-[build]
-  # Set the command to install dependencies and build the site
-  command = "hugo --minify"
-  publish = "public"  # The folder that Hugo generates the website in
-  environment = [
-    "HUGO_VERSION=0.112.4"
-  ]
+name = "Zahi"
+license = "MIT"
+licenselink = "https://github.com/mohamedelhefni/zahi/blob/main/LICENSE"
+description = "A fast, minimal, responsive Hugo arabic theme"
+homepage = "/"
+tags = [
+    "responsive",
+    "simple",
+    "clean",
+    "light",
+    "dark",
+    "blog",
+    "rtl",
+    "arabic",
+]
 
-[build.environment]
-  # Optional: Add any environment variables for the build process
-  NODE_VERSION = "14"  # For Node.js apps, if needed
+features = [
+    "responsive",
+    "blog",
+    "cover-image",
+    "table-of-contents",
+    "highlight.js",
+    "cover",
+    "social-icons",
+    "minified-assets",
+    "theme-toggle",
+]
+min_version = "0.112.4"
 
-[context.production.environment]
-  # You can set different environment variables for the production context
-  HUGO_ENV = "production"
+[author]
+name = "Mohamed Elhefni"
+homepage = "https://github.com/mohamedelhefni/"
+
+[original]
+name = "Zahi"
+author = "MohamedElhefni"
+homepage = "https://github.com/mohamedelhefni"
+repo = "https://github.com/mohamedelhefni/zahi/"
