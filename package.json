@@ -1,12 +1,5 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.x.x",
-    "postcss": "^8.x.x",
-    "autoprefixer": "^10.x.x",
-    "@tailwindcss/typography": "^0.5.0" // Add this line for the typography plugin
-  },
-  "scripts": {
-    "build:css": "npx tailwindcss -i ./assets/css/tailwind.css -o ./static/css/style.css --minify",
-    "build": "npm run build:css && hugo"
+    "@tailwindcss/typography": "^0.5.12"
   }
 }
