@@ -1,0 +1,15 @@
+[build]
+  # Set the command to install dependencies and build the site
+  command = "hugo --minify"
+  publish = "public"  # The folder that Hugo generates the website in
+  environment = [
+    "HUGO_VERSION=0.112.4"
+  ]
+
+[build.environment]
+  # Optional: Add any environment variables for the build process
+  NODE_VERSION = "14"  # For Node.js apps, if needed
+
+[context.production.environment]
+  # You can set different environment variables for the production context
+  HUGO_ENV = "production"
