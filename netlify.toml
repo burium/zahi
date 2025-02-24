@@ -1,9 +1,11 @@
 [build]
   command = "hugo"
+  command = "yarn install && hugo"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.121.1"  # You can specify the version you want here
+  NODE_OPTIONS = "--max-old-space-size=4096"
 
-[context.production.environment]
-  HUGO_VERSION = "0.121.1"  # Check the latest stable Hugo version
+
+
