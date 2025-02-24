@@ -1,7 +1,0 @@
-[build]
-  command = "npm install && npm run build"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.110.0"
-  NODE_OPTIONS = "--max-old-space-size=4096"
