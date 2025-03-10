@@ -31,3 +31,9 @@ site = "https://hefni101.netlify.app/"
 [services]
 [services.disqus]
 shortname = 'foobar'
+
+theme = "zahi"
+[module]
+  [[module.imports]]
+    path = "github.com/burium/zahi"
+
