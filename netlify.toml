@@ -1,7 +1,7 @@
 [build]
-command = "hugo --gc --minify && npx tailwindcss -i ./static/css/style.css -o ./static/css/output.css"
-publish = "public"
+  command = "hugo --gc --minify && npx tailwindcss -i ./static/css/style.css -o ./static/css/output.css"
+  publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.111.3"
-HUGO_ENV = "production"
+  HUGO_VERSION = "0.111.3"
+  HUGO_ENV = "production"
